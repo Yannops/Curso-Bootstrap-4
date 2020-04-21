@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Página com Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand h1 mb-0 text-white" href="#">Bootstrap 4</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">TikTok</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar..." />
+                    <button class="btn btn-dark" type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="carouselSite" data-slide-to="1" class="active"></li>
+            <li data-target="carouselSite" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/mountain.jpg" class="img-fluid d-block" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Lorem Ipsum dolor</h1>
+                    <p>Mauris dictium, nulla sed placeret sodales, diam augue sollicitudin dui.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/chilling.jpg" class="img-fluid d-block" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Lorem Ipsum dolor</h1>
+                    <p>Mauris dictium, nulla sed placeret sodales, diam augue sollicitudin dui.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/wirelesscharger.jpg" class="img-fluid d-block" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Lorem Ipsum dolor</h1>
+                    <p>Mauris dictium, nulla sed placeret sodales, diam augue sollicitudin dui.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-sm-6 col-md-3">
+            <div class="card md-5">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./assets/gifVale.gif" />
+                    <h4 class="card-title">Chai</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Sub</h6>
+                    <p>Duis id sodales tortor. Donec porta, er at vel consectetur auctor, dui metus pretium erat.
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Top</li>
+                    <li class="list-group-item">Middle</li>
+                    <li class="list-group-item">Botton</li>
+                </ul>
+                <div class="card-body">
+                    <a class="card-link" href="#">Saiba Mais...</a>
+                </div>
+                <div class="card-footer text-muted">
+                    <h6 class="card-text">Fim</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="card md-5">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./assets/google.jpg" />
+                    <h4 class="card-title">Tai</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Done</h6>
+                    <p>Duis id sodales tortor. Donec porta, er at vel consectetur auctor, dui metus pretium erat.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Top</li>
+                    <li class="list-group-item">Middle</li>
+                    <li class="list-group-item">Botton</li>
+                </ul>
+                <div class="card-body">
+                    <a class="card-link" href="#">Saiba Mais...</a>
+                </div>
+                <div class="card-footer text-muted">
+                    <h6 class="card-text">Fim</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="card md-5">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./assets/hostinger.jpeg" />
+                    <h4 class="card-title">Dai</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Cone</h6>
+                    <p>Duis id sodales tortor. Donec porta, er at vel consectetur auctor, dui metus pretium erat.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Top</li>
+                    <li class="list-group-item">Middle</li>
+                    <li class="list-group-item">Botton</li>
+                </ul>
+                <div class="card-body">
+                    <a class="card-link" href="#" data-toggle="modal" data-target="#siteModal">Saiba Mais...</a>
+                </div>
+                <div class="card-footer text-muted">
+                    <h6 class="card-text">Fim</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="card md-5">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./assets/rainbow.gif" />
+                    <h4 class="card-title">Dai</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Cone</h6>
+                    <p>Duis id sodales tortor. Donec porta, er at vel consectetur auctor, dui metus pretium erat.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Top</li>
+                    <li class="list-group-item">Middle</li>
+                    <li class="list-group-item">Botton</li>
+                </ul>
+                <div class="card-body">
+                    <a class="card-link" href="#" data-toggle="modal" data-target="#siteModal">Saiba Mais...</a>
+                </div>
+                <div class="card-footer text-muted">
+                    <h6 class="card-text">Fim</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4"><i class="fa fa-video-camera text-primary mr-2" aria-hidden="true"></i>Donec
+                        tincidunt</h1>
+                    <p class="lead">Mauris accumsan mattis faucibus. Mauris in urna vel leo viverra facilisis quis
+                        eget
+                        eros. In venenatis pharetra
+                        volutpat.</p>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill"
+                                href="#nav-item-01">Sigrid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Chris
+                                Brown</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">R. City</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="nav-pills-content">
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/z6A2LHGx8_A" title="High Five"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>In nec orci eget ante ultricies maximus. Quisque congue eros a pellentesque
+                                        tincidunt. Cras eu nisl vel augue tincidunt
+                                        tristique. Sed ut accumsan mi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/5sMKX22BHeE"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>In nec orci eget ante ultricies maximus. Quisque congue eros a pellentesque
+                                        tincidunt. Cras eu nisl vel augue
+                                        tincidunt
+                                        tristique. Sed ut accumsan mi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/6GUm5g8SG4o"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>In nec orci eget ante ultricies maximus. Quisque congue eros a pellentesque
+                                        tincidunt. Cras eu nisl vel augue
+                                        tincidunt
+                                        tristique. Sed ut accumsan mi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-4 text-center mb-4"><i class="fa fa-paper-plane text-primary mr-3"
+                        aria-hidden="true"></i>Formulary</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-3">
+                            <label for="inputnome" class="text-bold"><strong>Nome:</strong></label>
+                            <input type="text" class="form-control" placeholder="Insira seu Nome..." id="inputnome" />
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label for="inputsobrenome"><strong>Sobrenome:</strong></label>
+                            <input type="text" class="form-control" placeholder="Insira seu Sobrenome..."
+                                id="inputsobrenome" />
+                        </div>
+                        <div class="form-group col-sm-5">
+                            <label for="inputend"><strong>Endereço:</strong></label>
+                            <input type="text" placeholder="Insira seu Endereço..." class="form-control"
+                                id="inputend" />
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <label for="inputcidade"><strong>Cidade:</strong></label>
+                            <input type="text" placeholder="Insira sua Cidade..." class="form-control"
+                                id="inputcidade" />
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label for="inputuf"><strong>Estado:</strong></label>
+                            <select id="inputuf" class="form-control">
+                                <optgroup label="Região-Norte">
+                                    <option value="1">AC</option>
+                                    <option value="2">AP</option>
+                                    <option value="3">AM</option>
+                                    <option value="4">PA</option>
+                                    <option value="5">RO</option>
+                                    <option value="6">RR</option>
+                                    <option value="7">TO</option>
+                                </optgroup>
+                                <optgroup label="Região-Nordeste">
+                                    <option value="8">AL</option>
+                                    <option value="9">BA</option>
+                                    <option value="10">CE</option>
+                                    <option value="11">MA</option>
+                                    <option value="12">PB</option>
+                                    <option value="13">PI</option>
+                                    <option value="14">PE</option>
+                                    <option value="15">RN</option>
+                                    <option value="16">SE</option>
+                                </optgroup>
+                                <optgroup label="Região-Centro-Oeste">
+                                    <option value="17">DF</option>
+                                    <option value="18">GO</option>
+                                    <option value="19">MT</option>
+                                    <option value="20">MS</option>
+                                </optgroup>
+                                <optgroup label="Região-Sudeste">
+                                    <option value="21">ES</option>
+                                    <option value="22">MG</option>
+                                    <option value="23">RJ</option>
+                                    <option value="24" selected>SP</option>
+                                </optgroup>
+                                <optgroup label="Região-Sul">
+                                    <option value="25">PR</option>
+                                    <option value="26">RS</option>
+                                    <option value="27">SC</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-5">
+                            <label for="inputcep"><strong>CEP:</strong></label>
+                            <input type="text" id="inputcep" class="form-control" placeholder="Insira seu CEP..." />
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check ml-1">
+                                <label for="sim" class="form-check-label">
+                                    <input id="sim" type="checkbox" class="form-check-input" checked />Desejo
+                                    receber
+                                    novidades por E-mail.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <button type="submit" class="btn btn-primary mb-4">Enviar</button>
+                            <a tabindex="0" class="btn btn-secondary ml-2 mb-4" role="button" data-toggle="popover"
+                                data-placement="right" data-trigger="focus" title="Alerta!"
+                                data-content="Você foi Hackeado!">Ajuda</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+            <div class="col-sm-4">
+                <h3>Curso</h3>
+                <p>Morbi sit amet viverra purus. Proin vitae justo cursus, molestie purus sed, fermentum ligula.
+                    Etiam
+                    non odio ornare,
+                    tincidunt ipsum at, vulputate ex.</p>
+                <p>Integer ut sollicitudin felis. Donec pulvinar ac diam eu rutrum. Proin ultrices mi non lobortis
+                    sagittis. Nullam eu
+                    ipsum nec leo feugiat blandit sed ut lacus.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Menu</h3>
+                <div class="list-group text-center">
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Depoimentos</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contatos</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Social</h3>
+                <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                    <a class="btn btn-outline-primary mb-1" href="#"><i class="fa fa-facebook-official"></i>
+                        Facebook</a>
+                    <a class="btn btn-outline-danger mb-1" href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
+                    <a class="btn btn-outline-warning" href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver
+                        emocionalmente
+                        envolvido
+                        em seu trabalho.</p>
+                    <footer class="blockquote-footer">Biz Stone <cite title="Source Title">Fundador do
+                            Twitter</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <!--Modal-->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Morbi sed ultricies augue</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>x</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Bruina</h5>
+                                <p>uensvjnesvkjsnsuevnsuvnse ucfnueh&nbsp;fvsuienvusenviuesgneuigns
+                                    ue&nbsp;nvisunuevniouwenvwuoienunerv uwn
+                                    ivwevuneiv&nbsp;iifnfinifnoawnfiowanfnawir iaowhiohfiwhwofihafio.</p>
+                            </div>
+                            <div class="col-6">
+                                <h5>Ruina</h5>
+                                <p>iwfoanfianw&nbsp;foiawnfoaiwfnofnaiowfniw&nbsp;ne
+                                    fiwvegno4ihngh4oiv&nbsp;gnjeiogvj4nigjne4omivg
+                                    f3iof3winhf. wufbuwfbauiwfbauifbauifaufafgiawfuguwf</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>
